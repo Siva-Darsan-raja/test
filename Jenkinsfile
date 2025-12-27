@@ -4,9 +4,10 @@ pipeline{
     stages {
         stage('Test Webhook') {
             steps {
-                sh '.tesh.sh'
+                sh 'tesh.sh'
             }
         }
     }
 
 }
+
